@@ -1,18 +1,3 @@
-<?php
-// require_once 'functions.php';
-
-// if (isset($_COOKIE['login'])) {
-//     header('location: index.php');
-//     exit;
-// }
-
-// $resultAlert = regist();
-// if ($resultAlert === '') {
-//     header('location: index.php');
-//     exit;
-// }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,34 +12,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Comfortaa:wght@300;400;600;700&family=Mulish:wght@300;400;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,700&family=Questrial&family=Quicksand:wght@300;400;600;700&family=Rajdhani:wght@300;400;600;700&display=swap">
-    <link rel="stylesheet" href="static/css/register-style.css">
 </head>
 
 <body style="background-color: #e3e3e3 !important;">
-    <!-- section regist -->
+    <!-- section home -->
 
-    <div class="container mt-4">
-        <form action="" method="post" class="form-signin py-5 px-4 regist text-center text-white" style="margin-top: -42px; border-radius: 5px;">
-            <h1 class="h3 mb-2 font-weight-normal">REGISTER</h1>
+    <div class="container mt-4"></div>
 
-            <?php // echo $resultAlert; 
-            ?>
+    <!-- end home -->
 
-            <div class="input-group text-left mt-3">
-                <label for="name">Username</label>
-                <input type="text" name="name" id="name" class="form-control text-white" maxlength="15" autocomplete="off" required>
-            </div>
-
-            <button class="btn btn-lg btn-danger btn-block mt-4 mb-3" type="submit" name="submit">REGISTER</button>
-            <p class="mb-3 text-muted">&copy; Copyright | Akbarazy 2022</p>
-        </form>
-    </div>
-
-    <!-- end regist -->
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    <script src="static/js/register-script.js"></script>
 </body>
 
 </html>

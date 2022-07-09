@@ -33,12 +33,15 @@
 <body style="background-color: #e3e3e3 !important;">
     <!-- section regist -->
 
-    <div class="container mt-4">
-        <form action="" method="post" class="form-signin py-5 px-4 regist text-center text-white" style="margin-top: -42px; border-radius: 5px;">
+    <div class="container">
+        <form action="" method="post" class="form-signin py-5 px-4 regist text-center text-white" style="border-radius: 5px;">
             <h1 class="h3 mb-2 font-weight-normal">REGISTER</h1>
 
             <?php // echo $resultAlert; 
             ?>
+            <div class="alert alert-danger mt-4" role="alert" style="border: 1px solid #e0616e">
+                A simple danger alert—check it out!
+            </div>
 
             <div class="input-group text-left mt-3">
                 <label for="name">Username</label>
@@ -46,7 +49,6 @@
             </div>
 
             <button class="btn btn-lg btn-danger btn-block mt-4 mb-3" type="submit" name="submit">REGISTER</button>
-            <p class="mb-3 text-muted">&copy; Copyright | Akbarazy 2022</p>
         </form>
     </div>
 

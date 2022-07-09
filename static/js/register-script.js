@@ -1,7 +1,7 @@
 const label = document.querySelector("label");
 const input = document.querySelector("input");
 
-input.addEventListener("click", function () {
+input.addEventListener("focus", function () {
   label.classList.add("label-animation");
 });
 

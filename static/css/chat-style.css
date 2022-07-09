@@ -1,3 +1,12 @@
+.chat-area {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #343a40 !important;
+  position: relative;
+}
+
 .other-profile-chat {
   display: flex;
 }
@@ -14,8 +23,37 @@
 }
 
 .other-name-chat {
-  max-width: 330px;
+  max-width: 254px;
+  display: inline-block;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.all-chat {
+  position: relative;
+}
+
+.your-chat {
+  max-width: 230px;
+  word-wrap: break-word;
+  background-color: #dc3545;
+  padding: 5px 8px;
+  margin-left: auto;
+}
+
+.other-chat {
+  max-width: 230px;
+  word-wrap: break-word;
+  background-color: white;
+  padding: 5px 8px;
+  margin-right: auto;
+  color: #343a40;
+}
+
+@media (max-width: 345px) {
+  .your-chat,
+  .other-chat {
+    width: 85%;
+  }
 }

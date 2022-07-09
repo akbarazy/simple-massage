@@ -92,7 +92,7 @@
             </div>
         </div>
 
-        <div class="chat-area form-signin mt-5 py-3 px-4 regist text-center text-white" style="border-radius: 5px;">
+        <div class="chat-area mt-5 pt-4 pb-5 px-4 regist text-center text-white" style="border-radius: 5px;">
             <div class="other-profile-chat text-left">
                 <div class="back pr-2">
                     <i class="fa fa-chevron-left mr-2" aria-hidden="true"></i>
@@ -100,7 +100,17 @@
 
                 <div class="other-name-chat">
                     <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                    <span>&nbsp;Ravieezy Asiekkkkkkkkkkkkk</span>
+                    <span>&nbsp;Asep Injury</span>
+                </div>
+            </div>
+            <hr>
+
+            <div class="all-chat">
+                <div class="your-chat text-left mb-2" style="border-radius: 5px 0px 5px 5px;">
+                    <p>Hi All, This is My simple massager As My experience For Learning</p>
+                </div>
+                <div class="other-chat text-left mb-2" style="border-radius: 0px 5px 5px 5px;">
+                    <p>Hi All, This is My simple massager As My experience For Learning</p>
                 </div>
             </div>
         </div>

@@ -32,6 +32,12 @@
 
 .all-chat {
   position: relative;
+  overflow-y: auto;
+  max-height: 460px;
+}
+
+.all-chat::-webkit-scrollbar {
+  display: none;
 }
 
 .your-chat {
@@ -49,6 +55,77 @@
   padding: 5px 8px;
   margin-right: auto;
   color: #343a40;
+}
+
+h6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: inherit;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.your-chat-date,
+.other-chat-date {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.your-chat-date {
+  color: #343a40 !important;
+}
+
+.other-chat-date {
+  color: #dc3545 !important;
+}
+
+.display-flex {
+  display: flex !important;
+}
+
+.input-chat {
+  padding-left: 7px !important;
+  margin-right: 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  transition: 0.3s;
+}
+
+.input-chat:focus {
+  border-color: #dc3545 !important;
+  box-shadow: 0 0 0 2px rgb(220, 53, 69);
+}
+
+.input-chat:focus-visible {
+  outline: none;
+  outline-offset: unset;
+}
+
+.chat-submit {
+  background-color: #dc3545 !important;
+  border: none;
+  font-size: 30px;
+  width: 38px;
+  height: 38px;
+  position: relative;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.chat-submit i {
+  position: absolute;
+  top: 3.3px;
+  left: 12px;
+  transition: 0.3s;
+}
+
+.chat-submit:hover {
+  background-color: #c82333 !important;
+}
+
+.chat-submit:hover i {
+  color: #b5b7bb !important;
 }
 
 @media (max-width: 345px) {

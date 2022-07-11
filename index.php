@@ -41,7 +41,7 @@
                 <a href="" class="other-profile nav-link text-white text-left mb-2">
                     <div class="other-name">
                         <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                        <span>&nbsp;Galang</span>
+                        <span>&nbsp;Bot 1</span>
                         <span class="notif">
                             <i class="fa fa-circle text-danger" aria-hidden="true"></i>
                         </span>
@@ -54,7 +54,7 @@
                 <a href="" class="other-profile nav-link text-white text-left mb-2">
                     <div class="other-name">
                         <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                        <span>&nbsp;Asep Injury</span>
+                        <span>&nbsp;Bot 2</span>
                         <span class="notif">
                             <i class="fa fa-circle text-danger" aria-hidden="true"></i>
                         </span>
@@ -67,7 +67,7 @@
                 <a href="" class="other-profile nav-link text-white text-left mb-2">
                     <div class="other-name">
                         <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                        <span>&nbsp;Aditya</span>
+                        <span>&nbsp;Bot 3</span>
                         <span class="notif">
                             <i class="fa fa-circle text-danger" aria-hidden="true"></i>
                         </span>
@@ -80,7 +80,33 @@
                 <a href="" class="other-profile nav-link text-white text-left mb-2">
                     <div class="other-name">
                         <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                        <span>&nbsp;Ravieezy</span>
+                        <span>&nbsp;Bot 4</span>
+                        <span class="notif">
+                            <i class="fa fa-circle text-danger" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="other-button ml-auto">
+                        <i class="fa fa-chevron-right pr-1" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+                <a href="" class="other-profile nav-link text-white text-left mb-2">
+                    <div class="other-name">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        <span>&nbsp;Bot 5</span>
+                        <span class="notif">
+                            <i class="fa fa-circle text-danger" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="other-button ml-auto">
+                        <i class="fa fa-chevron-right pr-1" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+                <a href="" class="other-profile nav-link text-white text-left mb-2">
+                    <div class="other-name">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        <span>&nbsp;Bot 6</span>
                         <span class="notif">
                             <i class="fa fa-circle text-danger" aria-hidden="true"></i>
                         </span>
@@ -100,18 +126,57 @@
 
                 <div class="other-name-chat">
                     <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                    <span>&nbsp;Asep Injury</span>
+                    <span>&nbsp;Bot 1</span>
                 </div>
             </div>
             <hr>
 
-            <div class="all-chat">
+            <div class="all-chat mt-4">
                 <div class="your-chat text-left mb-2" style="border-radius: 5px 0px 5px 5px;">
-                    <p>Hi All, This is My simple massager As My experience For Learning</p>
+                    <h6 class="your-chat-name">You</h6>
+                    <p class="mb-0">Hi All, This is My simple massager As My experience For Learning</p>
+                    <p class="your-chat-date mt-2 mb-0 text-right">11 Juli 2022</p>
                 </div>
+
                 <div class="other-chat text-left mb-2" style="border-radius: 0px 5px 5px 5px;">
-                    <p>Hi All, This is My simple massager As My experience For Learning</p>
+                    <h6>Asep Injury</h6>
+                    <p class="mb-0">Ok bro, I support all your progress</p>
+                    <p class="other-chat-date mt-2 mb-0 text-right">12 January 2034</p>
                 </div>
+
+                <div class="other-chat text-left mb-2" style="border-radius: 0px 5px 5px 5px;">
+                    <h6>Asep Injury</h6>
+                    <p class="mb-0">I Hope you always in successful</p>
+                    <p class="other-chat-date mt-2 mb-0 text-right">12 January 2034</p>
+                </div>
+
+                <div class="your-chat text-left mb-2" style="border-radius: 5px 0px 5px 5px;">
+                    <h6 class="your-chat-name">You</h6>
+                    <p class="mb-0">Thanks for all bro</p>
+                    <p class="your-chat-date mt-2 mb-0 text-right">11 Juli 2022</p>
+                </div>
+
+                <div class="your-chat text-left mb-2" style="border-radius: 5px 0px 5px 5px;">
+                    <h6 class="your-chat-name">You</h6>
+                    <p class="mb-0">I am sure, that you will also be successful</p>
+                    <p class="your-chat-date mt-2 mb-0 text-right">11 Juli 2022</p>
+                </div>
+
+                <div class="other-chat text-left mb-2" style="border-radius: 0px 5px 5px 5px;">
+                    <h6>Asep Injury</h6>
+                    <p class="mb-0">Alright</p>
+                    <p class="other-chat-date mt-2 mb-0 text-right">12 January 2034</p>
+                </div>
+            </div>
+
+            <hr class="mt-4">
+            <div class="chat-type">
+                <form action="" method="post" class="display-flex text-left">
+                    <input type="text" name="chat-text" id="chat-text" class="input-chat" placeholder="Type your massage" autocomplete="off" require>
+                    <button type="submit" name="chat-submit" class="chat-submit">
+                        <i class="fa fa-caret-right text-white" aria-hidden="true"></i>
+                    </button>
+                </form>
             </div>
         </div>
     </div>

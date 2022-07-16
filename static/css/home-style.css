@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -29,7 +33,7 @@ h1 {
 hr {
   border-top: 2px solid rgba(0, 0, 0, 0.1) !important;
   background-color: #9b9ea0;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .hr-color {
@@ -85,22 +89,6 @@ hr {
   transition: 0.3s;
 }
 
-.notif {
-  position: relative;
-  font-size: 10px !important;
-}
-
-.notif i {
-  position: absolute;
-  top: -2px;
-  left: 5px;
-  transition: 0.3s;
-}
-
-.other-profile:hover .other-name .notif i {
-  color: #c82333 !important;
-}
-
 .other-button {
   transition: 0.3s;
 }
@@ -111,9 +99,25 @@ hr {
 }
 
 .other-people::-webkit-scrollbar {
-  display: none;
+  width: 5px;
+  transition: 0.3s;
+}
+
+.other-people::-webkit-scrollbar-thumb {
+  background-color: #dc3545;
+  border-radius: 7px;
 }
 
 .other-people:hover {
   cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dc3545;
+  border-radius: 7px;
 }

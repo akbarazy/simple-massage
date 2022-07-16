@@ -13,8 +13,9 @@
 
 .back {
   display: inline-block;
-  padding-top: 0.3px;
+  padding-top: 0.5px;
   transition: 0.3s;
+  font-size: 16px !important;
 }
 
 .back:hover {
@@ -33,7 +34,7 @@
 .all-chat {
   position: relative;
   overflow-y: auto;
-  max-height: 460px;
+  height: 340px;
 }
 
 .all-chat::-webkit-scrollbar {

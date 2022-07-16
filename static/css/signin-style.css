@@ -68,6 +68,11 @@ label {
   top: -3.7px;
 }
 
+.error-notif {
+  border: 1px solid #e0616e;
+  display: none;
+}
+
 @media (max-width: 575px) {
   .regist {
     padding-bottom: 45px !important;

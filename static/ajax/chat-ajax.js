@@ -15,6 +15,7 @@ sendButton.onclick = () => {
     if (xhr.readyState === XMLHttpRequest.DONE) {
       if (xhr.status === 200) {
         inputChat.value = "";
+        console.log(xhr.response);
       }
     }
   };
@@ -37,6 +38,5 @@ setInterval(() => {
   };
 
   let formData = new FormData(form);
-  console.log(formData);
   xhr.send(formData);
 }, 500);

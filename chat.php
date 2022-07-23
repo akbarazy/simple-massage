@@ -51,7 +51,7 @@ $other = mysqli_fetch_assoc($query);
             <div class="chat-type">
                 <form action="" method="post" class="display-flex text-left">
                     <input type="hidden" name="other-id" value="<?php echo $otherId; ?>">
-                    <input type="text" name="chat-text" id="chat-text" class="input-chat" placeholder="Type your massage" maxlength="70" autocomplete="off" required>
+                    <input type="text" name="chat-text" id="chat-text" class="input-chat" placeholder="Type your massage" maxlength="200" autocomplete="off" required>
                     <button type="submit" name="chat-submit" class="chat-submit">
                         <i class="fa fa-caret-right text-white" aria-hidden="true"></i>
                     </button>

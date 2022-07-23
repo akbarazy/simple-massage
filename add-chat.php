@@ -3,6 +3,9 @@ include_once 'config.php';
 $yourId = $_COOKIE['signin'];
 $otherId = $_POST['other-id'];
 $time = date('d M Y', time());
+echo $time;
+echo ' (' . time() . ')';
+
 $message = mysqli_real_escape_string($connect, $_POST['chat-text']);
 
 if (!empty($message)) {
